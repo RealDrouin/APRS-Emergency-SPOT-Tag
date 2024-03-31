@@ -5,3 +5,4 @@ ESP8266 - gateway (FindmeSpot.com API) to (APRS server (rotate.aprs2.net))
 ![](Spot.png)
 ![](aprsfi-1.png).
 ![](aprsfi-2.png).
+![](aprsfi-3.png).
