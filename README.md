@@ -13,7 +13,7 @@ https://aprs.fi/ve2cuz-9
 ![](aprsfi-3.png).
 https://aprs.fi/ve2cuz
 
-![](debug(serial)).
+![](serialdebug).
 Serial Debug!
 
 # Documentation for findmespot API
