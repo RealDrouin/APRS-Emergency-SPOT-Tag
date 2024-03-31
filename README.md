@@ -13,5 +13,5 @@ https://aprs.fi/ve2cuz-9
 ![](aprsfi-3.png).
 https://aprs.fi/ve2cuz
 
-Documentation for findmespot API/n
+# Documentation for findmespot API
 https://www.findmespot.com/en-us/support/spot-gen4/get-help/general/spot-api-support
