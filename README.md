@@ -16,5 +16,5 @@ https://aprs.fi/ve2cuz
 ![](serialdebug.png).
 Serial Debug!
 
-# Documentation for findmespot API
+# Documentation for findmespot,com (API) at
 https://www.findmespot.com/en-us/support/spot-gen4/get-help/general/spot-api-support
