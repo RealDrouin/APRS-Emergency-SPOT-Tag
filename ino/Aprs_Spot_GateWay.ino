@@ -1,10 +1,10 @@
 /*
-   APRS BALISE Station and SpotGen3 Satelite Tracker GlobalStar Ver 2.1.0
+   APRS BALISE Station and SpotGen3 Satelite Tracker GlobalStar Ver 2.1.1
 
-     Date 2024-Mars-30
+     Date 2024-Apl-01
 */
 
-const String ver = "Ver 2.1.0";
+const String ver = "Ver 2.1.1";
 
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
@@ -22,6 +22,7 @@ String line = "";
 String SpotHost = "https://api.findmespot.com";
 String SpotApi = "/spot-main-web/consumer/rest-api/2.0/public/feed/";
 String SpotToken = "*********************";  //your Spot API Token
+String SpotComment = "https://maps.findmespot.com/s/26TP"; //ex: your share map link from findmespot
 // EX: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/yourSpotAPI/latest.json
 
 /////////////////////////////////////////
@@ -225,8 +226,8 @@ void APRS() {
             client.println(findMeSpot);
             Serial.println(findMeSpot);
             delay(10);
-            client.println((SpotCallSign) + ">APRS,TCPIP:>Emergency Spot GPS Tracker/Messenger ");
-            Serial.println((SpotCallSign) + ">APRS,TCPIP:>Emergency Spot GPS Tracker/Messenger ");
+            client.println((SpotCallSign) + ">APRS,TCPIP:>" + (SpotComment));
+            Serial.println((SpotCallSign) + ">APRS,TCPIP:>" + (SpotComment));
             Serial.println(F("APRS Server Updated! :-)"));
             digitalWrite(2, HIGH);
 
