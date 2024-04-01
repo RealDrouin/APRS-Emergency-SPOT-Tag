@@ -2,6 +2,7 @@
    APRS BALISE Station and SpotGen3 Satelite Tracker GlobalStar Ver 2.1.1
 
      Date 2024-Apl-01
+     make by VE2CUZ
 */
 
 const String ver = "Ver 2.1.1";
