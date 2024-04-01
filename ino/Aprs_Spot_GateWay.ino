@@ -38,7 +38,7 @@ String battery = "";
 //////////////////////////////////////////
 // APRS STATION SETUP need edit by user //
 //////////////////////////////////////////////////////////////////////////////
-String SpotCallSign = "callsign-9";         //your Callsign ex: VE2CUZ-9
+String SpotCallSign = "callsign-10";         //your Callsign ex: VE2CUZ-10
 String CallSign = "callsign";               //your Callsign ex: VE2CUZ
 String Passcode = "passcode";               //your APRS Passcode passcode
 String Lat = "gps";                         //your static GPS location ex: 4545.99N DDM Format
