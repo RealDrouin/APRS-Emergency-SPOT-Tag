@@ -8,7 +8,7 @@
 https://aprs.fi
 
 ![](aprsfi-2.png).
-https://aprs.fi/ve2cuz-9
+https://aprs.fi/ve2cuz-10
 
 ![](aprsfi-3.png).
 https://aprs.fi/ve2cuz
