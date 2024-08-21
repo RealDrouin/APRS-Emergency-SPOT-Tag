@@ -29,7 +29,7 @@ String line = "";
 String SpotHost = "https://api.findmespot.com";
 String SpotApi = "/spot-main-web/consumer/rest-api/2.0/public/feed/";
 String SpotToken = "";     //your Spot API Token
-String SpotComment = "Satellite Messenger SpotX https://maps.findmespot.com/s/26TP";  //ex: your share map link from findmespot
+String SpotComment = "Spot GlobalStar Satellite Messenger https://maps.findmespot.com/s/26TP";  //ex: your share map link from findmespot
 // EX: https://api.findmespot.com/spot-main-web/consumer/rest-api/2.0/public/feed/apikey/latest.json
 
 /////////////////////////////////////////
@@ -185,8 +185,8 @@ void APRS() {
       if (response.indexOf("verified") > 0) {
         if (AprsBroadcast == true && FindMeSpotBroadcast == false) {
           broadcastCount++;
-          client.println((CallSign) + ">APRS,TCPIP:>Satellite Messenger SpotX GateWay by VE2CUZ " + (ver.c_str()));
-          Serial.println((CallSign) + ">APRS,TCPIP:>Satellite Messenger SpotX GateWay by VE2CUZ " + (ver.c_str()));
+          client.println((CallSign) + ">APRS,TCPIP:>Spot GlobalStar Satellite Messenger GateWay by VE2CUZ " + (ver.c_str()));
+          Serial.println((CallSign) + ">APRS,TCPIP:>Spot GlobalStar Satellite Messenger GateWay by VE2CUZ " + (ver.c_str()));
 
           //  Email Notification
           if (aprsemailto.length() > 0 && broadcastCount >= 72) {
