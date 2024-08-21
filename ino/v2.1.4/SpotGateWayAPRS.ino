@@ -1,5 +1,5 @@
 /*
-   APRS BALISE Station and SpotGen3 Satelite Tracker GlobalStar GateWay Ver 2.1.4
+   APRS BALISE Station and Spot Satellite Messenger GlobalStar GateWay Ver 2.1.4
 
    add variable Spot Latitude json
    change delay Spot request api to 2.5 min
